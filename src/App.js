@@ -31,13 +31,13 @@ function App() {
 			<Discuss />
 			<Pricing />
 			<Partner />
-			{/* <Process />
+			<Process />
 			<Testimonial />
 			<Blog />
 			<Contact />
 			<Quote />
 			<Social />
-			<Footer /> */}
+			<Footer />
 		</React.Fragment>
 	);
 }

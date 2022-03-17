@@ -3,7 +3,6 @@ import data from "./pricedata";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./PricingSlider.css";
-import { TurnedIn } from "@mui/icons-material";
 
 export default function PricingSlider() {
 	const Settings = {
