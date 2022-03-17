@@ -1,0 +1,123 @@
+.service__wrapper {
+	width: 100%;
+	margin-top: 100px;
+	height: 100%;
+	display: flex;
+	align-items: flex-start;
+}
+.service__content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	max-width: 1400px;
+	margin: auto;
+	width: 100%;
+	height: 100%;
+}
+.service__content__head {
+	max-width: 1200px;
+	width: 100%;
+	text-align: center;
+	padding: 0 2rem;
+	margin: 0 0 40px 0;
+}
+.serice__head {
+	font-size: 2.5rem;
+	font-weight: bold;
+	color: var(--black);
+	margin-bottom: 1.3rem;
+	text-transform: uppercase;
+	position: relative;
+}
+.service__content__head > .serice__head::after {
+	content: "";
+	position: absolute;
+	width: 85px;
+	height: 3px;
+	background: var(--Orange);
+	top: 100%;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.service__content__head > .service__sub__text {
+	font-size: 1.1rem;
+	color: var(--mid-grey);
+	padding: 0 8rem;
+	line-height: 2;
+}
+.service__col__3 {
+	height: 100%;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 1400px;
+	justify-content: center;
+}
+.service__box {
+	height: 300px;
+	width: 400px;
+	text-align: center;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	margin: 0 20px 40px 20px;
+}
+.circle__icon {
+	width: 100px;
+	height: 100px;
+	background: var(--white);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50%;
+	box-shadow: 0px 0px 20px rgba(187, 187, 187, 0.3);
+}
+.box__heading {
+	margin-top: 20px;
+}
+.service__box__content {
+	padding: 0 20px;
+	line-height: 1.9;
+	color: var(--mid-grey);
+}
+
+@media only screen and (max-width: 1259px) {
+	.service__content__head > .service__sub__text {
+		padding: 0 3rem;
+	}
+}
+
+@media only screen and (max-width: 880px) {
+	.service__box {
+		margin: 0 0 40px 0;
+	}
+}
+
+@media only screen and (max-width: 839px) {
+	.service__box {
+		width: 80%;
+	}
+	.service__box__content {
+		padding: 0;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.service__content__head > .serice__head {
+		font-size: 2rem;
+	}
+	.service__content__head > .service__sub__text {
+		padding: 0rem;
+	}
+}
+
+@media only screen and (max-width: 505px) {
+	.service__box {
+		width: 100%;
+		padding: 0 20px;
+	}
+	.service__content__head {
+		padding: 0 1.2rem;
+	}
+}

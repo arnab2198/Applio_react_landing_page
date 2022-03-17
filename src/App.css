@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+:root {
+	--Orange: #f86465;
+	--white: #ffffff;
+	--black: #000000;
+	--mid-grey: #6d6d6d;
+	--light-grey: #cdcdcd;
+	--light-green: #5dec5bc7;
+	--red: #f63d3e;
+	--off-white-bg: #f8f9fa;
+	--dark-grey: #272a33;
+	--light-black: #272a33;
+	--violet: #512da8;
+	--dark-pink: #711e72;
+	--pricing--bg: #f4f4f4;
+	--card-border: #c0c0c0;
+	--card-sub-text: #a9a9a9;
+}
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+html {
+	font-family: "Poppins", sans-serif;
+	-webkit-tap-highlight-color: transparent;
+}
+body {
+	cursor: default !important;
+}
+::-webkit-scrollbar {
+	width: 8px;
+}
+::-webkit-scrollbar-button {
+	display: none;
+}
+::-webkit-scrollbar-thumb {
+	background-color: var(--Orange);
+	border-radius: 4px;
+}
+a {
+	cursor: pointer;
+	text-decoration: none;
+}
+li {
+	list-style: none;
+}
+.df-sb-ac {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+a,
+a:hover,
+a:focus,
+a:active {
+	text-decoration: none;
+	color: none;
+}
+
+@media only screen and (max-width: 844px) {
+	*/ html::-webkit-scrollbar {
+		width: 50rem;
+	}
+	html {
+		-ms-overflow-style: none;
+		scrollbar-width: none;
+	}
+}

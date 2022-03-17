@@ -1,0 +1,43 @@
+.slick-track {
+	display: flex;
+	overflow: hidden;
+}
+.image__div {
+	display: flex !important;
+	align-items: center;
+	justify-content: center;
+	width: 280px !important;
+	height: 150px;
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+.image__div > img {
+	cursor: pointer;
+	width: 160px;
+}
+.slick-slide {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+@media only screen and (max-width: 670px) {
+	.image__div {
+		width: 100% !important;
+		height: 100px !important;
+	}
+	.image__div > img {
+		width: 150px;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	.image__div {
+		width: 100% !important;
+		height: 100px !important;
+	}
+	.image__div > img {
+		width: 110px;
+	}
+}

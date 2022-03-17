@@ -1,0 +1,51 @@
+.CookieConsent {
+	align-items: center !important;
+	padding: 8px 30px !important;
+	justify-content: center !important;
+	flex-wrap: unset !important;
+}
+.CookieConsent div:first-child {
+	flex: unset !important;
+	width: 1000px;
+	margin-right: 50px !important;
+	font-size: 16px !important;
+}
+.CookieConsent div:last-child > button {
+	border-radius: 6px !important;
+	font-size: 16px !important;
+	padding: 14px 10px !important;
+	width: 130px !important;
+	font-weight: 500 !important;
+}
+
+@media only screen and (max-width: 768px) {
+	.CookieConsent {
+		flex-wrap: wrap !important;
+		justify-content: flex-start !important;
+		padding: 8px 15px !important;
+	}
+	.CookieConsent div:first-child {
+		margin-right: 15px !important;
+		font-size: 15px !important;
+	}
+	.CookieConsent div:last-child > button {
+		margin: 0 0 15px 15px !important;
+		font-size: 15px !important;
+	}
+	.read__text {
+		font-size: 14px !important;
+	}
+}
+
+@media only screen and (max-width: 566px) {
+	.CookieConsent {
+		padding: 8px 10px !important;
+	}
+	.CookieConsent div:first-child {
+		font-size: 14px !important;
+	}
+	.CookieConsent div:last-child > button {
+		font-size: 14px !important;
+		padding: 10px 6px !important;
+	}
+}
