@@ -1,4 +1,4 @@
-const data = [
+const carddata = [
 	{
 		id: 1,
 		name: "Starter",
@@ -106,4 +106,4 @@ const data = [
 	},
 ];
 
-export default data;
+export default carddata;

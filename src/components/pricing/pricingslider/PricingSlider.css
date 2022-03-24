@@ -2,7 +2,7 @@
 	position: relative;
 	width: 350px !important;
 	padding: 30px 20px;
-	margin-right: 10px;
+	margin-right: 20px;
 	background: var(--white);
 	border: 1px solid var(--card-border);
 }
@@ -132,9 +132,4 @@
 	left: 0;
 	transform: translate(-50%, -50%);
 	margin-left: 5px;
-}
-.slick-track {
-	display: flex;
-	align-items: center;
-	justify-content: space-evenly;
 }

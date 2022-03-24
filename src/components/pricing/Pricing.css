@@ -60,8 +60,21 @@
 	align-items: center;
 }
 
+@media only screen and (max-width: 1259px) {
+	.pricing__sub__text {
+		padding: 0 3rem;
+	}
+}
+
 @media only screen and (max-width: 768px) {
-	/* .pricing__container {
-		display: none;
-	} */
+	.pricing__head {
+		font-size: 2rem;
+	}
+	.pricing__sub__text {
+		padding: 0rem;
+	}
+}
+
+.swiper-slide-active .swiper-wrapper {
+	transform: translate3d(-1031px, 0px, 0px) !important;
 }

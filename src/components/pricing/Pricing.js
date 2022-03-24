@@ -1,5 +1,5 @@
 import React from "react";
-import PricingSlider from "./pricingslider/Pricingslider";
+import Pricingslider from "./pricingslider/Pricingslider";
 import "./Pricing.css";
 
 const Pricing = () => {
@@ -16,7 +16,7 @@ const Pricing = () => {
 				</div>
 				<div className="pricing__content ">
 					<div className="card__container ">
-						<PricingSlider />
+						<Pricingslider />
 					</div>
 				</div>
 			</div>
