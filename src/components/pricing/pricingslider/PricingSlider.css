@@ -1,6 +1,6 @@
 .card__main {
 	position: relative;
-	width: 350px !important;
+
 	padding: 30px 20px;
 	margin-right: 20px;
 	background: var(--white);
@@ -133,3 +133,79 @@
 	transform: translate(-50%, -50%);
 	margin-left: 5px;
 }
+.splide__list {
+	justify-content: center;
+}
+.splide__track {
+	padding: 0 0.8rem !important;
+}
+.splide.is-initialized {
+	width: 100% !important;
+}
+@media only screen and (max-width: 1400px) {
+	.card__heading {
+		font-size: 19px;
+		margin: 15px 0 10px 0;
+	}
+	.card__sub__text {
+		font-size: 13px;
+	}
+	.plan__price {
+		font-size: 30px;
+	}
+	.buy__now__btn {
+		width: 100%;
+		padding: 12px;
+		font-size: 15px;
+	}
+}
+@media only screen and (max-width: 1486px) {
+	.splide__list {
+		justify-content: unset;
+	}
+	.card__main {
+		width: 350px !important;
+	}
+}
+@media only screen and (max-width: 768px) {
+	.card__main {
+		width: 350px !important;
+	}
+	.card__heading {
+		font-weight: 400;
+	}
+	.plan__price {
+		font-weight: 400;
+	}
+	.custom__text,
+	.float__price,
+	.tax__text {
+		font-size: 13px;
+	}
+	.learn__highlight__text,
+	.learn__text,
+	.learn__more__btn,
+	.card__feature__head,
+	.card__feature__list,
+	.card__more__btn {
+		font-size: 13px;
+	}
+}
+
+@media only screen and (max-width: 428px) {
+	.card__main {
+		width: 350px !important;
+	}
+}
+
+@media only screen and (max-width: 370px) {
+	.card__main {
+		width: calc(100% - 20px) !important;
+	}
+}
+
+/* @media only screen and (max-width: 300px) {
+	.card__main {
+		width: 280px !important;
+	}
+} */

@@ -4,7 +4,7 @@ const carddata = [
 		name: "Starter",
 		plantext:
 			"Lorem ipsum dolor sit amet, csectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis",
-		currency: "₹",
+		currency: "$",
 		price: "2,000",
 		floatprice: ".99",
 		pricetext: "(Excl Tax)",
@@ -30,7 +30,7 @@ const carddata = [
 		name: "Standard",
 		plantext:
 			"Lorem ipsum dolor sit amet, csectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis",
-		currency: "₹",
+		currency: "$",
 		price: "3,500",
 		floatprice: ".99",
 		pricetext: "(Excl Tax)",
@@ -57,7 +57,7 @@ const carddata = [
 		name: "Essential",
 		plantext:
 			"Lorem ipsum dolor sit amet, csectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis",
-		currency: "₹",
+		currency: "$",
 		price: "8,000",
 		floatprice: ".99",
 		pricetext: "(Excl Tax)",
@@ -83,7 +83,7 @@ const carddata = [
 		name: "Premium",
 		plantext:
 			"Lorem ipsum dolor sit amet, csectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis",
-		currency: "₹",
+		currency: "$",
 		price: "23,000",
 		floatprice: ".99",
 		pricetext: "(Excl Tax)",

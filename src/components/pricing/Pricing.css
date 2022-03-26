@@ -46,7 +46,7 @@
 .pricing__content {
 	width: 100%;
 	height: 100%;
-	padding: 40px;
+	padding: 20px 0px;
 	display: flex;
 	background-color: var(--pricing--bg);
 	align-items: center;
@@ -73,8 +73,4 @@
 	.pricing__sub__text {
 		padding: 0rem;
 	}
-}
-
-.swiper-slide-active .swiper-wrapper {
-	transform: translate3d(-1031px, 0px, 0px) !important;
 }

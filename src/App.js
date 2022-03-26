@@ -22,22 +22,22 @@ function App() {
 	return (
 		<React.Fragment>
 			{/* <Customcursor /> */}
-			<Cookie />
+			{/* <Cookie />
 			<Navbar />
 			<Hero />
 			<Scrolltop />
 			<Service />
 			<Features />
-			<Discuss />
+			<Discuss /> */}
 			<Pricing />
-			<Partner />
+			{/* <Partner />
 			<Process />
 			<Testimonial />
 			<Blog />
 			<Contact />
 			<Quote />
 			<Social />
-			<Footer />
+			<Footer /> */}
 		</React.Fragment>
 	);
 }
