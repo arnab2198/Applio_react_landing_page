@@ -84,6 +84,7 @@
 }
 .right__container {
 	padding: 10px;
+	display: none;
 }
 .process__cycle__img {
 	height: 290px;

@@ -10,10 +10,10 @@
 	height: 150px;
 	border: none;
 	outline: none;
-	cursor: pointer;
+	/* cursor: pointer; */
 }
 .image__div > img {
-	cursor: pointer;
+	/* cursor: pointer; */
 	width: 160px;
 }
 .slick-slide {

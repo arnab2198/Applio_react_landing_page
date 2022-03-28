@@ -4,7 +4,7 @@ import carddata from "./pricedata";
 import "@splidejs/splide/dist/css/themes/splide-default.min.css";
 import "../pricingslider/PricingSlider.css";
 
-export default function () {
+const PricingSlider = () => {
 	return (
 		<Splide
 			options={{
@@ -79,4 +79,6 @@ export default function () {
 			))}
 		</Splide>
 	);
-}
+};
+
+export default PricingSlider;

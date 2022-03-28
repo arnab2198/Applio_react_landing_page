@@ -28,7 +28,7 @@ const Navbar = () => {
 								</Link>
 							</li>
 							<li>
-								<Link to="pricing" offset={-50} duration={1500} smooth>
+								<Link to="pricing" offset={-40} duration={1500} smooth>
 									Pricing
 								</Link>
 							</li>
@@ -38,7 +38,12 @@ const Navbar = () => {
 								</Link>
 							</li>
 							<li>
-								<Link to="feature" offset={-50} duration={1500} smooth>
+								<Link to="process" offset={-50} duration={1500} smooth>
+									Process
+								</Link>
+							</li>
+							<li>
+								<Link to="blog" offset={-50} duration={1500} smooth>
 									Blog
 								</Link>
 							</li>

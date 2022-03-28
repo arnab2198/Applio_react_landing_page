@@ -1,6 +1,6 @@
 import "./App.css";
 import React from "react";
-// import Customcursor from "./components/customcursor/Customcursor";
+import Customcursor from "./components/customcursor/Customcursor";
 import Cookie from "./components/cookiemessage/Cookie";
 import Navbar from "./components/navbar/Navbar";
 import Hero from "./components/hero/Hero";
@@ -21,23 +21,23 @@ import Footer from "./components/footer/Footer";
 function App() {
 	return (
 		<React.Fragment>
-			{/* <Customcursor /> */}
-			{/* <Cookie />
+			<Customcursor />
+			<Cookie />
 			<Navbar />
 			<Hero />
 			<Scrolltop />
 			<Service />
 			<Features />
-			<Discuss /> */}
+			<Discuss />
 			<Pricing />
-			{/* <Partner />
+			<Partner />
 			<Process />
 			<Testimonial />
 			<Blog />
 			<Contact />
 			<Quote />
 			<Social />
-			<Footer /> */}
+			<Footer />
 		</React.Fragment>
 	);
 }

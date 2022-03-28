@@ -25,13 +25,14 @@
 	box-sizing: border-box;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
+	cursor: unset;
 }
 html {
 	font-family: "Poppins", sans-serif;
 	-webkit-tap-highlight-color: transparent;
 }
 body {
-	cursor: default !important;
+	/* cursor: default !important; */
 }
 ::-webkit-scrollbar {
 	width: 8px;
