@@ -17,9 +17,9 @@ export default function ReviewSlider() {
 			slidesPerGroup={1}
 			loop={true}
 			speed={1000}
-			// autoplay={{
-			// 	delay: 1000,
-			// }}
+			autoplay={{
+				delay: 1000,
+			}}
 			loopFillGroupWithBlank={true}
 			pagination={{
 				clickable: true,
