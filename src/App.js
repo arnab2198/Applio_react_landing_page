@@ -21,7 +21,7 @@ import Footer from "./components/footer/Footer";
 function App() {
 	return (
 		<React.Fragment>
-			<Customcursor />
+			{/* <Customcursor /> */} {/*uncomment app.css * cursor line 28 */}
 			<Cookie />
 			<Navbar />
 			<Hero />

@@ -3,8 +3,8 @@
 	bottom: 2.5rem;
 	right: 3.5rem;
 	animation: fadeIn 1000ms ease-in-out 1s both;
-	cursor: pointer;
 	z-index: 99999;
+	cursor: none !important;
 }
 
 @keyframes fadeIn {

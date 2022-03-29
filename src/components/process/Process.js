@@ -4,7 +4,7 @@ import Cycleimg from "../../assets/image/cycle.svg";
 
 const Process = () => {
 	return (
-		<section className="process__wrapper">
+		<section className="process__wrapper" id="process">
 			<div className="process__container">
 				<div className="process__heading">
 					<h1 className="process__head">How we work</h1>

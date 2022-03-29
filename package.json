@@ -21,9 +21,8 @@
 		"react-scripts": "5.0.0",
 		"react-scroll": "^1.8.5",
 		"react-slick": "^0.28.1",
-		"react-tabs": "^3.2.3",
 		"slick-carousel": "^1.8.1",
-		"swiper": "^3.4.2",
+		"swiper": "^8.0.7",
 		"web-vitals": "^2.1.4"
 	},
 	"scripts": {

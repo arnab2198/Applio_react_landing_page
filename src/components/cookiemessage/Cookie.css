@@ -3,6 +3,7 @@
 	padding: 8px 30px !important;
 	justify-content: center !important;
 	flex-wrap: unset !important;
+	cursor: none !important;
 }
 .CookieConsent div:first-child {
 	flex: unset !important;
