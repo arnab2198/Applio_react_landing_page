@@ -17,8 +17,9 @@ export default function ReviewSlider() {
 			slidesPerGroup={1}
 			loop={true}
 			speed={1000}
+			draggable={false}
 			autoplay={{
-				delay: 1000,
+				delay: 1500,
 			}}
 			loopFillGroupWithBlank={true}
 			pagination={{
@@ -28,22 +29,25 @@ export default function ReviewSlider() {
 			modules={[Pagination, Navigation]}
 			className="mySwiper"
 			breakpoints={{
+				0: {
+					slidesPerView: 1,
+					spaceBetween: 20,
+				},
 				320: {
-					width: 320,
-					spaceBetween: 30,
 					slidesPerView: 1,
+					spaceBetween: 20,
 				},
-				480: {
+				520: {
 					slidesPerView: 1,
-					spaceBetween: 30,
+					spaceBetween: 20,
 				},
-				524: {
-					width: 524,
-					slidesPerView: 1,
-				},
-				768: {
-					width: 768,
+				680: {
 					slidesPerView: 2,
+					spaceBetween: 20,
+				},
+				950: {
+					slidesPerView: 3,
+					spaceBetween: 20,
 				},
 			}}
 		>

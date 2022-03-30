@@ -23,7 +23,7 @@ const reviewdata = [
 		name: "Angela Jason",
 		content:
 			"Scelerisque feugiat ut egestas eleifend lorem magna neque, id aliquam ipsum pretium ut placerat in porta nunc est nisl, at nunc ante consequat et quis varius non faucibus ac et et a nibh nulla vestibulum aenean blandit velit ultrices aliquam",
-		company: "Inkoop Technologies Pvt. Ltd. - ",
+		company: "Inkoop Technologies Ltd. - ",
 		position: "Project Manger",
 	},
 	{
