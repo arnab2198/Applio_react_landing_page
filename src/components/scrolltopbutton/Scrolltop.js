@@ -39,13 +39,13 @@ export default class ScrollToTop extends Component {
 	render() {
 		const { is_visible } = this.state;
 		return (
-			<div className="scroll-to-top">
+			<section className="scroll-to-top">
 				{is_visible && (
 					<div className="scroll" onClick={() => this.scrollToTop()}>
 						<img src={Scrolltopimg} alt="scrollbtn" />
 					</div>
 				)}
-			</div>
+			</section>
 		);
 	}
 }

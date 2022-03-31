@@ -1,6 +1,7 @@
 import React from "react";
 import "./Features.css";
 import Featureimage from "../../assets/image/girl-mobile.svg";
+import featuredata from "./featuredata";
 
 const Features = () => {
 	return (
@@ -20,18 +21,11 @@ const Features = () => {
 						</p>
 					</div>
 					<div className="feature__point__list">
-						<ul className="feature__list">
-							<li className="feature__point">
-								We put a lot of effort in design.
-							</li>
-							<li className="feature__point">
-								The most important ingredient of successful website.
-							</li>
-							<li className="feature__point">
-								Sed ut perspiciatis unde omnis iste natus error sit.
-							</li>
-							<li className="feature__point">Submit Your Orgnization.</li>
-						</ul>
+						{featuredata.map((list, index) => (
+							<ul key={index} className="feature__list">
+								<li className="feature__point">{list.content}</li>
+							</ul>
+						))}
 					</div>
 					<a className="learn__btn" href="/#">
 						Learn More

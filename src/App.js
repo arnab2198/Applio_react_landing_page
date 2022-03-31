@@ -2,9 +2,9 @@ import "./App.css";
 import React from "react";
 import Customcursor from "./components/customcursor/Customcursor";
 import Cookie from "./components/cookiemessage/Cookie";
+import Scrolltop from "./components/scrolltopbutton/Scrolltop";
 import Navbar from "./components/navbar/Navbar";
 import Hero from "./components/hero/Hero";
-import Scrolltop from "./components/scrolltopbutton/Scrolltop";
 import Service from "./components/service/Service";
 import Features from "./components/features/Features";
 import Discuss from "./components/discuss/Discuss";
@@ -21,11 +21,11 @@ import Footer from "./components/footer/Footer";
 function App() {
 	return (
 		<React.Fragment>
-			{/* <Customcursor /> */} {/*uncomment app.css * cursor line 28 */}
+			{/* <Customcursor /> uncomment app.css * cursor line 28 */}
 			<Cookie />
+			<Scrolltop />
 			<Navbar />
 			<Hero />
-			<Scrolltop />
 			<Service />
 			<Features />
 			<Discuss />

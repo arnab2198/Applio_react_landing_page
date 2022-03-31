@@ -4,7 +4,7 @@ import "./Customcursor.css";
 
 const Customcursor = () => {
 	return (
-		<div className="Customcursor">
+		<section className="Customcursor">
 			<AnimatedCursor
 				innerSize={10}
 				outerSize={30}
@@ -13,7 +13,7 @@ const Customcursor = () => {
 				innerScale={0.2}
 				outerScale={3}
 			/>
-		</div>
+		</section>
 	);
 };
 

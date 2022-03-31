@@ -84,7 +84,6 @@
 }
 .right__container {
 	padding: 10px;
-	/* display: none; */
 }
 .process__cycle__img {
 	height: 290px;
@@ -99,6 +98,11 @@
 @media only screen and (max-width: 1220px) {
 	.process__cycle__img {
 		height: 260px;
+	}
+}
+@media only screen and (max-width: 1082px) {
+	.process__cycle__img {
+		height: 220px;
 	}
 }
 

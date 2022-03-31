@@ -46,3 +46,21 @@
 	max-width: 1400px;
 	margin: auto;
 }
+
+@media only screen and (max-width: 1259px) {
+	.review__sub__text {
+		padding: 0 3rem;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.review__heading {
+		padding: 0 1.2rem;
+	}
+	.review__sub__text {
+		padding: 0rem;
+	}
+	.review__head {
+		font-size: 2rem;
+	}
+}

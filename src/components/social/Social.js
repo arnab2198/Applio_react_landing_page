@@ -1,10 +1,12 @@
-import React from 'react';
-import './Social.css';
+import React from "react";
+import "./Social.css";
 
 const Social = () => {
-  return (
-    <div>Social</div>
-  )
-}
+	return (
+		<section className="social__wrapper" id="social">
+			Social
+		</section>
+	);
+};
 
-export default Social
+export default Social;
