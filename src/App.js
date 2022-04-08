@@ -16,7 +16,7 @@ import Blog from "./components/blog/Blog";
 import Contact from "./components/contact/Contact";
 import Quote from "./components/quote/Quote";
 import Social from "./components/social/Social";
-// import Footer from "./components/footer/Footer";
+import Footer from "./components/footer/Footer";
 
 function App() {
 	return (
@@ -37,18 +37,7 @@ function App() {
 			<Contact />
 			<Quote />
 			<Social />
-			{/*<Footer /> */}
-			{/* <div
-				className="coming"
-				style={{
-					fontSize: "50px",
-					fontWeight: "600",
-					textAlign: "center",
-					margin: "200px 0",
-				}}
-			>
-				Coming Soon
-			</div> */}
+			<Footer />
 		</React.Fragment>
 	);
 }

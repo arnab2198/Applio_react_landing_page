@@ -48,6 +48,7 @@
 }
 .menu__links > li > a {
 	color: #fff;
+	font-size: 17px;
 }
 .try__btn__mobile {
 	display: none;
