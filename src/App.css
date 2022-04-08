@@ -33,9 +33,9 @@ html {
 	font-family: "Poppins", sans-serif;
 	-webkit-tap-highlight-color: transparent;
 }
-body {
-	/* cursor: default !important; */
-}
+/* body {
+	cursor: default !important;
+} */
 ::-webkit-scrollbar {
 	width: 8px;
 }
@@ -67,7 +67,7 @@ a:active {
 }
 
 @media only screen and (max-width: 844px) {
-	*/ html::-webkit-scrollbar {
+	html::-webkit-scrollbar {
 		width: 50rem;
 	}
 	html {

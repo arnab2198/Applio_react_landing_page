@@ -1,6 +1,6 @@
 import "./App.css";
 import React from "react";
-import Customcursor from "./components/customcursor/Customcursor";
+// import Customcursor from "./components/customcursor/Customcursor";
 import Cookie from "./components/cookiemessage/Cookie";
 import Scrolltop from "./components/scrolltopbutton/Scrolltop";
 import Navbar from "./components/navbar/Navbar";
@@ -16,7 +16,7 @@ import Blog from "./components/blog/Blog";
 import Contact from "./components/contact/Contact";
 import Quote from "./components/quote/Quote";
 import Social from "./components/social/Social";
-import Footer from "./components/footer/Footer";
+// import Footer from "./components/footer/Footer";
 
 function App() {
 	return (
@@ -37,7 +37,18 @@ function App() {
 			<Contact />
 			<Quote />
 			<Social />
-			<Footer />
+			{/*<Footer /> */}
+			{/* <div
+				className="coming"
+				style={{
+					fontSize: "50px",
+					fontWeight: "600",
+					textAlign: "center",
+					margin: "200px 0",
+				}}
+			>
+				Coming Soon
+			</div> */}
 		</React.Fragment>
 	);
 }

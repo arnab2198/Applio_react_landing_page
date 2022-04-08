@@ -1,6 +1,5 @@
 import React from "react";
 import "./Discuss.css";
-// import Discussbgimg from "";
 
 const Discuss = () => {
 	return (

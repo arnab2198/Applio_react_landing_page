@@ -144,6 +144,7 @@
 		left: 0px;
 		transition: all 600ms ease-in-out;
 		z-index: 1;
+		overflow-y: hidden;
 	}
 	.logo__main {
 		height: 50px;

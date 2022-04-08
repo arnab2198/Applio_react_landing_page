@@ -7,7 +7,7 @@ const Cookie = () => {
 		<CookieConsent
 			location="bottom"
 			buttonText="I Understand"
-			cookieName="myAwesomeCookieName2"
+			cookieName="guestcookieapplio"
 			style={{ background: "#2B373B" }}
 			buttonStyle={{ color: "#4e503b", fontSize: "14px" }}
 			expires={7}
