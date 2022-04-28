@@ -17,29 +17,31 @@ import Contact from "./components/contact/Contact";
 import Quote from "./components/quote/Quote";
 import Social from "./components/social/Social";
 import Footer from "./components/footer/Footer";
+import Lastfooter from "./components/lastfooter/Lastfooter";
 
 function App() {
-	return (
-		<React.Fragment>
-			{/* <Customcursor /> uncomment app.css * cursor line 28 */}
-			<Cookie />
-			<Scrolltop />
-			<Navbar />
-			<Hero />
-			<Service />
-			<Features />
-			<Discuss />
-			<Pricing />
-			<Partner />
-			<Process />
-			<Testimonial />
-			<Blog />
-			<Contact />
-			<Quote />
-			<Social />
-			<Footer />
-		</React.Fragment>
-	);
+  return (
+    <React.Fragment>
+      {/* <Customcursor /> uncomment app.css * cursor line 28 */}
+      <Cookie />
+      <Scrolltop />
+      <Navbar />
+      <Hero />
+      <Service />
+      <Features />
+      <Discuss />
+      <Pricing />
+      <Partner />
+      <Process />
+      <Testimonial />
+      <Blog />
+      <Contact />
+      <Quote />
+      <Social />
+      {/* <Footer /> */}
+      <Lastfooter />
+    </React.Fragment>
+  );
 }
 
 export default App;
